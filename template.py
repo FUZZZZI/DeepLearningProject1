@@ -42,13 +42,18 @@ list_of_files = [
     "Xray/pipeline/training_pipeline.py",
     "logger.py",
     "exception.py",
-    "requirements.txt",
+    "requirements.txt",                         #for production environment
     "setup.py",
     ".github/workflows/main.yaml",              #to write main configuration
     ".github/workflows/ci.yaml",
     "test/unittest/__init__.py",
     "test/integrationtest/__init__.py",
-    "bentofile.yaml"
+    "bentofile.yaml",
+    "experiment/experiment.ipynb",
+    "tox.ini",                                  #configuration to test the cases
+    "setup.cfg",                                #if you want to publish as a package
+    "requirements_dev.txt",                     #library for development environment
+    "init_setup.sh",                            #shell script for automation (env creation, install requirements files) basically initial setup
 
 ]
 
