@@ -23,6 +23,7 @@
 Used below as well:
 DVC
 MLFlow
-BentoML             --*instead of flask*
+PyTorch
+BentoML             --*instead of flask* for serving (exposing api) and deployment
 Docker
 Testcases

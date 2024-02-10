@@ -1,0 +1,10 @@
+# For production Environment
+
+bentoml
+torchvision      #download pytorch
+joblib
+tqdm            #show progress bar
+pip-chill       #automatically match library version
+wincertstore    #fulfill ssl certificate requirement
+
+# -e . #e menas execute, . means find packages in current directory

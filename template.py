@@ -31,7 +31,6 @@ list_of_files = [
     "Xray/components/__init__.py",
     "Xray/components/data_ingestion.py",
     "Xray/components/data_transformation.py",
-    "Xray/components/data_transformation.py",
     "Xray/components/model_training.py",
     "Xray/components/model_evaluation.py",
     "Xray/components/model_pusher.py",          #push model in realtime to s3 bucket

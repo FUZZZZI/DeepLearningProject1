@@ -1,0 +1,29 @@
+# For development Environment
+
+bentoml
+torchvision      #download pytorch
+joblib
+tqdm            #show progress bar
+pip-chill       #automatically match library version
+wincertstore    #fulfill ssl certificate requirement
+
+# Major
+dvc             #data managemnent
+mlflow          #track the experiment
+
+# Basics
+ipykernel
+numpy
+pandas
+seaborn
+
+# Testing
+pytest==7.1.3   #write different test cases 
+tox==3.25.1     #provide env to check test cases
+
+# Linting
+flake8==5.0.4   #validate code for protocol
+mypy==0.971
+black==22.8.0   #check linting (correct code, spaces, protocol, lines, spaces, etc.)  
+
+-e .
